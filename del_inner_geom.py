@@ -161,7 +161,7 @@ def register():
 def unregister():
     bpy.utils.unregister_class(Optimize_geom)
     bpy.types.VIEW3D_MT_object.remove(menu_func)
-##if name необязательно, в финальной версии уберем, позволяет запускать аддон прямо из текстового редактора Blender
+##if name необязательно, позволяет запускать аддон прямо из текстового редактора Blender
 if __name__ == "__main__":
     register()	
 
