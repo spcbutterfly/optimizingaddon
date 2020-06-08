@@ -42,7 +42,7 @@ from bpy.types import (
 # освободить все BMesh
 
 class Optimize_geom(Operator):
-    bl_label = "Optimize_geom"
+    bl_label = "Delete_inner_geom"
     bl_idname = "object.optimize_geom"
     bl_description = "Optimize models with inner geom"
     bl_space_type = "VIEW_3D"
